@@ -15,3 +15,13 @@ Caso não esteja, ele salva a música no banco de dados para uma recuperação f
 
 #---- Interface ----#
 O Youning tem uma interface simples, apenas sendo exposto o necessário e fazendo parte do tema do Youtube Music (ficando de forma homogênea e agradável). Informa o nome da música, a afinação, as cordas necessárias e a fonte sendo padrão Songsterr.
+
+#---- Imagens ----#
+Em algumas imagens repare em detalhes, como o ícone da conta Google (sem perder o login por cerca de 7 dias, pois a guitarra está no luthier e não abri o Youning). Outras observações são referentes a janela que pode ser expandida da forma que desejar.
+
+Verifique também o arquivo SQLite que consta a música teste que estava ao finalizar o Youning e testar pela primeira vez.
+
+
+#---- Informações adicionais ----#
+Iria utilizar o MySQL porém seria necessário um servidor ou abrir uma porta para meu computador. Realizei alguns testes e o funcionamento era o mesmo (apenas pela parte que tenho mais afinidade com o SQL Workbench), optei por trocar para SQLite pois também tenho amigos que tocam e o Youning com certeza ajuda a agilizar um pouco, já que o Amplitube já conta com o afinador embutido.
+O projeto em si foi feito com intuito pessoal, porém nesse momento estou estudando tunelamento de dados, protocolos de rede e formas de blindar o servidor cada vez mais.
